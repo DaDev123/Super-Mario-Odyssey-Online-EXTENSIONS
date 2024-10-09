@@ -1,0 +1,416 @@
+body {
+    background-color: #00B50A;
+	color: darkgreen;
+	margin: 0px;
+	padding: 0px;
+	
+	background-image: url(../images/World.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+@font-face {
+    font-family: 'RodinNTLGPro-DB';
+    src: url('../fonts/FOT-RodinNTLGPro-DB.otf');
+}
+
+::selection {
+  background: #00D000;
+}
+::-moz-selection {
+  background: #00D000;
+}
+
+img {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+     user-select: none;
+}
+
+a {
+    color: #00FF00;
+}
+
+#Discord {
+    position: absolute;
+	top: 10px;
+    right: 10px;
+	width: 90px;
+}
+
+.VideoWrapper {
+	max-width: 700px;
+	margin: auto;
+}
+
+.VideoContainer {
+	position: relative;
+	margin: auto;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0px;
+}
+
+.VideoContainer iframe, .VideoContainer object, .VideoContainer embed {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#MainLogo {
+	margin-left: 24%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 15%;
+}
+
+#CappyImage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#MainContainer {
+    border: 1px solid;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#44AA44), to(#008800));
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 60px;
+	padding-top: 1%;
+	padding-left: 5%;
+	padding-right: 5%;
+	border-radius: 25px;
+	border-color: #004400;
+	display: inline-block;
+	-webkit-box-shadow: 0px 0px 100px 15px rgba(0,71,5,1);
+    -moz-box-shadow: 0px 0px 100px 15px rgba(0,71,5,1);
+    box-shadow: 0px 0px 100px 15px rgba(0,71,5,1);
+}
+
+.HeadLine {
+	color: #002000;
+    font-family: 'RodinNTLGPro-DB';
+	text-align: center;
+	text-shadow: 1px 2px 5px #66CC66;
+}
+
+.SectionDiv {
+	margin-bottom: 5%;
+	display: inline-block;
+	width: 100%;
+}
+
+.TextDiv {
+    font-family: 'RodinNTLGPro-DB';
+	font-size: large;
+	float: left;
+	margin-top: 30px;
+	width: 50%;
+	text-shadow: 1px 2px 5px #66CC66;
+	color: #002000;
+	transform: rotateZ(-2deg);
+}
+
+.TextDivPlain {
+	display: block;
+    font-family: 'RodinNTLGPro-DB';
+	font-size: 12;
+	text-align: center;
+	width: 80%;
+	color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.DonateDiv {
+	display: block;
+    font-family: 'RodinNTLGPro-DB';
+	font-size: medium;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	padding: 20px;
+	width: 100%;
+	color: #000000;
+	
+	border-radius: 20px;
+	border: solid;
+	background-color: red;
+	box-sizing: border-box;
+}
+
+.VersionTable {
+	display: table;
+}
+
+.VersionTableMobile {
+	display: none;
+}
+
+table {
+	border-collapse: collapse;
+	-webkit-box-shadow: 0px 0px 100px 15px rgba(0,71,5,1);
+    -moz-box-shadow: 0px 0px 100px 15px rgba(0,71,5,1);
+    box-shadow: 0px 0px 100px 15px rgba(0,71,5,1);
+	color: #000000;
+	font-size: larger;
+	margin: 0px auto;
+}
+
+th, td {
+	border: 1px;
+	border-color: #000000;
+	border-style: solid;
+	padding: 10px;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.TableColumnHeader {
+	font-weight: bold;
+	text-align: center;
+}
+
+.TableColumn {
+	font-weight: normal;
+	text-align: left;
+}
+
+.GameImage {
+	float: right;
+    width: 40%;
+	display: inline-block;
+	margin-top: 0px;
+	margin-bottom: 5%;
+	padding: 0px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px -2px 50px #064427;
+	-moz-box-shadow: 0px -2px 50px #064427;
+	box-shadow: 0px -2px 50px #064427;
+}
+
+.GalleryImageL {
+	float: left;
+	margin-bottom: 5%;
+	width: 47.5%;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px -2px 50px #064427;
+	-moz-box-shadow: 0px -2px 50px #064427;
+	box-shadow: 0px -2px 50px #064427;
+}
+
+.GalleryImageR {
+	display: inline-block;
+	margin-bottom: 5%;
+	float: right;
+	width: 47.5%;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px -2px 50px #064427;
+	-moz-box-shadow: 0px -2px 50px #064427;
+	box-shadow: 0px -2px 50px #064427;
+}
+
+.Pic {
+    width: 30%;
+	display: block;
+	margin-left: auto;
+	margin-right: 7.5%;
+	padding-top: 5%;
+	border-radius: 5px;
+}
+
+.button {
+	background-color: #20A020;
+	color: white;
+	-webkit-box-shadow: 0px 0px 50px #064427;
+	-moz-box-shadow: 0px 0px 50px #064427;
+	box-shadow: 0px 0px 50px #064427;
+	border-radius: 12px;
+	font-size: 24px;
+	text-align: center;
+	display: block;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	width: 30%;
+	cursor: pointer;
+	transition: 0.3s;
+	margin-top: 20px;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+.button:hover {
+	background-color: #44D044;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+.footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #004000;
+  text-align: center;
+  opacity: 0.5;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 950px) {	
+	.TextDiv {
+		font-size: medium;
+		margin-top: 0px;
+		width: 60%;
+	}
+	
+	.GameImage {
+		vertical-align: middle;
+    	width: 30%;
+	}
+	
+	
+	.button {
+		font-size: 28px;
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#Discord {
+		width: 70px;
+	}
+	
+	#MainContainer {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+	.VideoContainer {
+		overflow: hidden;
+	}
+	
+	.TextDiv {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+		transform: none;
+	}
+	
+	.ToSTextDiv {
+		width: 80%;
+	}
+	
+	.DonateDiv {
+		width: 80%;
+	}
+	
+	.GameImage {
+		display: block;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 40px;
+		width: 85%;
+	}
+	
+	.GalleryImageL {
+		display: block;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+	}
+	
+	.GalleryImageR {
+		display: block;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+	}
+
+	.VersionTable {
+		display: none;
+	}
+
+	.VersionTableMobile {
+		display: table;
+	}
+	
+	th, tr {
+		padding: 6px;
+	}
+	
+	table {
+		font-size: medium;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	#MainLogo {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		width: 80%;
+	}
+	
+	#MainContainer {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	
+	.button {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	#Discord {
+		top: 5px;
+		right: 5px;
+	}
+	
+	#MainLogo {
+		margin-left: 10px;
+		width: calc(100% - 10px - 80px);
+	}
+}
+/*
+     FILE ARCHIVED ON 04:33:07 Jan 11, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:59:58 Sep 28, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.589
+  exclusion.robots: 0.02
+  exclusion.robots.policy: 0.009
+  esindex: 0.011
+  cdx.remote: 12.501
+  LoadShardBlock: 118.708 (3)
+  PetaboxLoader3.datanode: 86.735 (4)
+  PetaboxLoader3.resolve: 91.557 (2)
+  load_resource: 75.304
+*/
